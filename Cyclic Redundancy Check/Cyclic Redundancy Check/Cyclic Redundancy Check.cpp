@@ -70,10 +70,7 @@ std::string ExtendedMessage(std::string& message, std::string& polynom)
 
 	std::cout << std::endl;
 	std::cout << "T(x): ";
-	for (int i = 0; i < message.length(); i++)
-	{
-		std::cout << message[i];
-	}
+	std::cout << message;
 	std::cout << std::endl;
 	return message;
 }
@@ -102,10 +99,7 @@ std::string RemainderMessage(std::string& extendedMessage, std::string& polynom)
 
 	std::cout << std::endl;
 	std::cout << "R(x): ";
-	for (int i = 0; i < remainderMessage.size(); i++)
-	{
-		std::cout << remainderMessage[i];
-	}
+	std::cout << remainderMessage;
 	std::cout << std::endl;
 	return remainderMessage;
 }
@@ -125,10 +119,7 @@ void CreateMessage(std::string& extendedMessage, std::string& remainderMessage)
 
 	std::cout << std::endl;
 	std::cout << "M'(x): ";
-	for (int i = 0; i < messagePrime.length(); i++)
-	{
-		std::cout << messagePrime[i];
-	}
+	std::cout << messagePrime;
 	std::cout << std::endl;
 }
 
